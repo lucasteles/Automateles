@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/xcfyex0tjp3c6m18?svg=true)](https://ci.appveyor.com/project/lucasteles/modelviewbinder)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://csmacnz.mit-license.org)
+[![Nuget](https://img.shields.io/nuget/v/Automateles.svg)](https://www.nuget.org/packages/Automateles/)
+
 # Automateles
 Simple implementation of pushdown automaton
 Reads strings as input and change states based on enums
