@@ -6,12 +6,16 @@
 Simple implementation of pushdown automaton
 Reads strings as input and change states based on enums
 
+ [JSON syntax analisys sample](https://github.com/lucasteles/JsonParser)
+ 
+ 
 ## Installing
 To install from Nuget
 
 ```powershell
 Install-Package Automateles 
 ```
+
 
 * Defines a basic automaton
 
