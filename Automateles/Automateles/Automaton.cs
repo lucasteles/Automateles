@@ -183,8 +183,10 @@ namespace Automateles
 
 
             if (!Transitions.ContainsKey(State) || ReadAInvalidToken)
+            {
+                ReadAInvalidToken = true;
                 return false;
-
+            } 
             var stateTrans = Transitions[State];
             stateTrans = stateTrans.OrderBy(e => e.Pop == null).ThenBy(e => e.Push == null).ToList();
             var ret = false;

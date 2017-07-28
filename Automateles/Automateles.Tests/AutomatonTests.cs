@@ -39,6 +39,18 @@ namespace Automateles.Tests
 
 
         [Fact]
+        public void ShouldNotPassWhenReadATextWithOnlyRightPrefix()
+        {
+            var machine = GetMachine();
+
+            machine.Read("abcdX");
+
+            machine.Valid().Should().BeFalse();
+
+        }
+
+
+        [Fact]
         public void ShouldNotPassWhenReadAInvalidText()
         {
             var machine = GetMachine();
