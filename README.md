@@ -6,6 +6,13 @@
 Simple implementation of pushdown automaton
 Reads strings as input and change states based on enums
 
+## Installing
+To install from Nuget
+
+```powershell
+Install-Package Automateles 
+```
+
 * Defines a basic automaton
 
 [Accept only the string "abcd"](http://automatonsimulator.com/#%7B%22type%22%3A%22DFA%22%2C%22dfa%22%3A%7B%22transitions%22%3A%7B%22start%22%3A%7B%22a%22%3A%22s0%22%7D%2C%22s0%22%3A%7B%22b%22%3A%22s1%22%7D%2C%22s1%22%3A%7B%22c%22%3A%22s2%22%7D%2C%22s2%22%3A%7B%22d%22%3A%22s3%22%7D%7D%2C%22startState%22%3A%22start%22%2C%22acceptStates%22%3A%5B%22s3%22%5D%7D%2C%22states%22%3A%7B%22start%22%3A%7B%7D%2C%22s0%22%3A%7B%22top%22%3A252%2C%22left%22%3A176%7D%2C%22s1%22%3A%7B%22top%22%3A251%2C%22left%22%3A367%7D%2C%22s2%22%3A%7B%22top%22%3A253%2C%22left%22%3A574%7D%2C%22s3%22%3A%7B%22isAccept%22%3Atrue%2C%22top%22%3A256%2C%22left%22%3A738%7D%7D%2C%22transitions%22%3A%5B%7B%22stateA%22%3A%22start%22%2C%22label%22%3A%22a%22%2C%22stateB%22%3A%22s0%22%7D%2C%7B%22stateA%22%3A%22s0%22%2C%22label%22%3A%22b%22%2C%22stateB%22%3A%22s1%22%7D%2C%7B%22stateA%22%3A%22s1%22%2C%22label%22%3A%22c%22%2C%22stateB%22%3A%22s2%22%7D%2C%7B%22stateA%22%3A%22s2%22%2C%22label%22%3A%22d%22%2C%22stateB%22%3A%22s3%22%7D%5D%2C%22bulkTests%22%3A%7B%22accept%22%3A%22%22%2C%22reject%22%3A%22%22%7D%7D)
